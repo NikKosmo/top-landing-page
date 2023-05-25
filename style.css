@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    flex: 1;
+}
+
+body>div {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.container {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+}
+
+.header,
+.description,
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.header,
+.footer {
+    flex: none;
+    height: 48px;
+}
+
+.description.container {
+    gap: 10px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+.main-climbing {
+    max-width: 400px;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.links {
+    display: flex;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.facts .container {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.facts-title {
+    font-size: 24px;
+}
+
+.facts-content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.fact {
+    display: flex;
+    width: 150px;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.fact img {
+    border-radius: 10px;
+    border: #3882f6 solid;
+}
+
+.fact div {
+    text-align: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quote .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+    padding: 20px;
+    padding-bottom: 0px;
+}
+
+.quote-author {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f2937;
+    align-self: flex-end;
+    padding-right: 20px;
+}
+
+.join .container {
+    background-color: #3882f6;
+    border-radius: 10px;
+}
+
+.join-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.join-message {
+    color: #f9faf8;
+    padding: 20px;
+}
+
+.sign-up.join {
+    border-color: #f9faf8;
+    margin-right: 20px;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 10px;
+    width: 100px;
+}
+
+.footer {
+    align-items: center;
+}
